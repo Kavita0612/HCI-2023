@@ -299,14 +299,14 @@ section {
     left: -100%;
   }
 }
-
+/* 
 @media (min-width: 1280px) {
 
   .mobile-nav-show,
   .mobile-nav-hide {
     display: none;
   }
-}
+} */
 
 
 @media (max-width: 1279px) {
