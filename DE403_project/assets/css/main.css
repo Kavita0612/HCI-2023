@@ -34,7 +34,7 @@ a:hover {
 }
 
 h1,
-h2,
+h2
 {
   font-family: var(--font-primary);
 }
@@ -159,17 +159,14 @@ section {
   .header {
     padding: 12px 0;
   }
-  /* .row{
-    width: 100% !important;
-    background-color: black !important;
-  } */
 }
+
 @media (min-width: 1034px) and (max-width: 1200px){
   .row{
     width: 33% !important;
-    /* background-color: white !important; */
   }
 }
+
 .header.sticked {
   background: rgba(27, 47, 69, 0.9);
   padding: 12px 0;
@@ -299,15 +296,6 @@ section {
     left: -100%;
   }
 }
-/* 
-@media (min-width: 1280px) {
-
-  .mobile-nav-show,
-  .mobile-nav-hide {
-    display: none;
-  }
-} */
-
 
 @media (max-width: 1279px) {
   .navbar {
@@ -507,9 +495,6 @@ section {
   }
 }
 
-
-
-
 ul{
   padding-inline-start: 2px;
 }
@@ -563,4 +548,3 @@ table, th, td {
   padding: 4% 20% 4% 20%;
   margin: auto;
 }
-
