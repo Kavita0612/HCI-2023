@@ -125,7 +125,7 @@ section {
 
 .topnav a {
   float: left;
-  color: #f2f2f2;
+  color: rgb(28,46,69);
   text-align: center;
   padding: 15px 30px;
   text-decoration: none;
@@ -159,8 +159,17 @@ section {
   .header {
     padding: 12px 0;
   }
+  /* .row{
+    width: 100% !important;
+    background-color: black !important;
+  } */
 }
-
+@media (min-width: 1034px) and (max-width: 1200px){
+  .row{
+    width: 33% !important;
+    /* background-color: white !important; */
+  }
+}
 .header.sticked {
   background: rgba(27, 47, 69, 0.9);
   padding: 12px 0;
@@ -422,6 +431,7 @@ section {
     top: 0;
     bottom: 0;
   }
+  
 }
 
 .hero:before {
@@ -432,6 +442,9 @@ section {
 }
 
 @media (max-width: 1034px) {
+  /* .row{
+    width: 33% !important;
+  } */
   .hero:before {
     background: rgba(27, 47, 69, 0.7);
   }
