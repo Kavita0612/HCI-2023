@@ -77,7 +77,9 @@ section {
   margin-bottom: 0;
 }
 
-
+.contents h1{
+  padding-bottom: 2%;
+}
 
 
 
@@ -202,7 +204,6 @@ section {
   font-family: var(--font-secondary);
   margin: 0;
 }
-
 
 @media (min-width: 1280px) {
   .navbar {
@@ -503,6 +504,40 @@ section {
 
 
 @media (max-width: 640px) {
+
+  .who-should-attend{
+    padding: 4% 10% 4% 10% !important;
+    margin: auto;
+    margin-top: 10% !important;
+  }
+
+  .contents_para{
+    text-align: center;
+  }
+
+  .registrations h1{
+    text-align:center !important;
+  }
+  .image-div{
+    scroll-margin-top: 60px !important;
+  }
+  .topnav a {
+    color: rgb(28,46,69);
+    padding: 0px 5px;
+    text-decoration: none;
+    font-size: 15px;
+  }
+  .registrations{
+    padding: 4% 10% 4% 10% !important;
+    margin: auto;
+  }
+  .contents{
+    padding: 4% 1% 4% 1% !important;
+  }
+  .contents h1{
+    text-align: center;
+    padding-bottom: 5%;
+  }
   .hero h2 {
     font-size: 36px;
     line-height: 1;
@@ -522,7 +557,6 @@ li{
 }
 
 .who-should-attend{
-
   padding: 4% 20% 4% 20%;
   margin: auto;
 }
