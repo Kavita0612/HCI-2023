@@ -171,6 +171,9 @@ section {
   background: rgba(27, 47, 69, 0.9);
   padding: 12px 0;
 }
+.header.sticked a {
+  color: white !important;
+}
 
 .header .logo img {
   max-height: 40px;
