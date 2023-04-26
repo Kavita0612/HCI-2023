@@ -442,7 +442,6 @@ section {
 .courses {
   width: 100%;
   min-height: 100vh;
-  background-color: aliceblue;
   position: relative;
   padding: 120px 0;
   z-index: 3;
