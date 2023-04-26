@@ -130,6 +130,7 @@ section {
 .image-div{
   text-align: center;
   scroll-margin-top: 150px !important;
+  margin-bottom: -20px;
 }
 
 
@@ -435,7 +436,7 @@ section {
   background: url("../img/hero-bg.jpg") top center;
   background-size: cover;
   position: relative;
-  padding: 120px 0;
+  padding: 220px 0;
   z-index: 3;
 }
 .courses {
