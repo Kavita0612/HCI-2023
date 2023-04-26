@@ -178,9 +178,19 @@ section {
   }
 }
 
-@media (min-width: 1034px) and (max-width: 1200px){
+@media (min-width: 1034px){
   .row{
     width: 33% !important;
+  }
+}
+@media (min-width: 1200px){
+  .row{
+    width: 100% !important;
+  }
+}
+@media (min-width: 1200px){
+  .row{
+    width: 100% !important;
   }
 }
 
@@ -428,6 +438,15 @@ section {
   padding: 120px 0;
   z-index: 3;
 }
+.courses {
+  width: 100%;
+  min-height: 100vh;
+  background-color: aliceblue;
+  position: relative;
+  padding: 120px 0;
+  z-index: 3;
+}
+
 
 @media (min-width: 1034px) {
   .hero:after {
@@ -599,4 +618,11 @@ table, th, td {
 .registrations{
   padding: 4% 20% 4% 20%;
   margin: auto;
+}
+
+@media (min-width: 2000px) {
+  .container{
+    max-width: 100% !important;
+    padding: 200px !important;
+  }
 }
